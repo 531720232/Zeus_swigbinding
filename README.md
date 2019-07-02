@@ -3,8 +3,6 @@ Zeus 下swig绑定文件部分
 %module(directors="1") Zeus_Ne
 
 %feature("director");
-// This example shows how wrappers for numerous aspects of C++ nested classes work:
-// Nested static and instance variables and methods and nested enums
 
 %include <std_string.i>
 %include "cpointer.i"
